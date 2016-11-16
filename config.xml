@@ -9,5 +9,8 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
-    <allow-navigation href="http://demo.embi.co.za/*" />
+<plugin name="cordova-plugin-whitelist"      source="npm" spec="1.1.0" />
+<allow-navigation href="*" />
+<allow-intent href="*" />
+<access origin="*" /> <!-- Required for iOS9 -->
 </widget>
